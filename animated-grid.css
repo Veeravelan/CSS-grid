@@ -98,3 +98,11 @@
     animation-delay: calc(13 * var(--stagger-delay));
     background-image: url(images/t13.jpg)
 }
+
+/* *Medium screen */
+@media screen and (max-width: 600px) {
+    .animated-grid{
+        grid-template-rows: repeat(1, 25%);
+        grid-template-columns: auto;
+    }
+}
